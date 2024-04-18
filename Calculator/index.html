@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+    </style>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+            <input id="display" readonly>
+            <div class="grid-container">
+                <button class="No" onclick="appendToDisplay('7')">7</button>
+                <button class="No" onclick="appendToDisplay('8')">8</button>
+                <button class="No" onclick="appendToDisplay('9')">9</button>
+                <button class="bt1" onclick="delLast('')">Del</button>
+                <button class="No" onclick="appendToDisplay('4')">4</button>
+                <button class="No" onclick="appendToDisplay('5')">5</button>
+                <button class="No" onclick="appendToDisplay('6')">6</button>
+                <button class="No" onclick="appendToDisplay('+')">+</button>
+                <button class="No" onclick="appendToDisplay('1')">1</button>
+                <button class="No" onclick="appendToDisplay('2')">2</button>
+                <button class="No" onclick="appendToDisplay('3')">3</button>
+                <button class="No" onclick="appendToDisplay('-')">-</button>
+                <button class="No" onclick="appendToDisplay('.')">.</button>
+                <button class="No" onclick="appendToDisplay('0')">0</button>
+                <button class="No" onclick="appendToDisplay('/')">/</button>
+                <button class="No" onclick="appendToDisplay('*')">*</button>
+                <button class="bt2" onclick="clearDisplay('')">R.E.</button>
+                <button class="bt3" onclick="calculate('')">=</button>
+            </div>
+    </div>
+<!-- connecting to JS -->
+        <script src="script.js"></script>
+</body>
+
+</html>

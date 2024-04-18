@@ -1,0 +1,61 @@
+* {
+    background-color: #40679E;
+}
+
+.calculator{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 100vh; /* Make container full viewport height */
+}
+
+.grid-container {
+    border: none;
+    border-radius: 7px;
+    width: 150px;
+    height: 160px;
+    /* top | right | buttom | left */
+    padding: 15px; 
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #1B3C73;
+    gap: 6px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+#display {
+    width: 150px;
+    height: 0.5px;
+    padding: 16px;
+    font-size: 20px;
+    color: azure;
+    text-align: left;
+    border: none;
+    border-radius: 7px;
+    background-color: #1B3C73;
+}
+
+button {
+    width: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.No {
+    background-color: whitesmoke;
+}
+
+.bt1,.bt2 {
+    background-color: #1B3C73;
+    color: azure;
+}
+
+.bt3 {
+    background-color: red;
+    color: azure;
+    grid-column: span 2;
+}
