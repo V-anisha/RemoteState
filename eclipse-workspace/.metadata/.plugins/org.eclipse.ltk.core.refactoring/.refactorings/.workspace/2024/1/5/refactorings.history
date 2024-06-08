@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Text_Recognition&apos;" deleteContents="false" description="Delete resource &apos;Text_Recognition&apos;" element1="/Text_Recognition" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1706618785476"/>&#x0A;<refactoring comment="Delete resource &apos;Text_Recognition&apos;" deleteContents="true" description="Delete resource &apos;Text_Recognition&apos;" element1="/Text_Recognition" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1706622577183"/>
-</session>
